@@ -6,7 +6,7 @@
 
 <br>
 
-Link to live site: https://michaelw1996.github.io/Week_planner/
+Link to live site: https://michaelw1996.github.io/DayPlanner/
 
 <br>
 
@@ -22,7 +22,7 @@ Creation of elements:
 
 Time based changes:
 
-    At the top of the page i have displayed the current time in my desired format using MomentJS 
+    At the top of the page i have displayed the current time & date in my desired format using MomentJS 
 
     I have then used the current time obtained with MomentJS to style the input text boxes depending on if this timeslot is in the past, present or future, this was done with conditional logic using if statements that compares the "hour" variable used to describe the slots hour with the current hour from MomentJS called "cHour". Depending on which is greater or if they are equal the blocks will be given a class which will style the text box accordingly
 
@@ -36,11 +36,13 @@ Screenshot of deployed site:
 
 ![Live site](./assets/images/LiveSite.jpg)
 
+![Data kept in local storage](./assets/images/Local.jpg)
+
 ## Code notes
 
 HTML:
 
-    No Changes from starter code made
+    Added "Timeblocks" id to container holding timeblocks for readiblity
 
 CSS:
 
@@ -48,7 +50,7 @@ CSS:
 
 JS:
 
-    Code functionality explained with a number of notes and in the above section 
+    Code functionality explained above 
 
 
 Coded by Michael Walters
