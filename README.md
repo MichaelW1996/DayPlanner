@@ -36,7 +36,7 @@ Screenshot of deployed site:
 
 ![Live site](./assets/images/LiveSite.jpg)
 
-![Data kept in local storage](./assets/images/Local.jpg)
+![Data kept in local storage](./assets/images/Local.JPG)
 
 ## Code notes
 
